@@ -64,6 +64,7 @@ void draw() {
     takePic();
   }
   
+  /// Reset to mountain image
   if ((mousePressed == true) && (mouseX > 700 && mouseX < 750 && mouseY > 760 && mouseY < 810)) {
     img = pict;
     takePic();
